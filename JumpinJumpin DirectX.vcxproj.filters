@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>65cd36b6-5c60-488c-a23c-9f54c6f38035</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1e75958a-3ddb-463b-8ed9-29e53b0f609e</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImaseLib">
+      <UniqueIdentifier>{c90212fe-a03b-46d6-a0d2-5e15f1fc4547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4b424a47-d8ee-4964-b61e-c23a5b2332a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{aed2dd89-3fb4-4c23-a537-beaa60ec17dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{13c61d5a-03dc-44f4-a475-010e333d6788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{f3775efa-8054-493b-9783-ebb50258c618}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\DebugCamera.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\DebugFont.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\GridFloor.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\Scene.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\SceneManager.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\LogoScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\ResourceManager.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Camera.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Player.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\BoxCollider.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Block.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Stage.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\Sound.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Goal.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\ResultScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\CapsuleCollider.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\StageSelectScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\DebugCamera.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\DebugFont.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\GridFloor.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\Scene.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\SceneManager.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\LogoScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\ResourceManager.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Camera.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Player.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\BoxCollider.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Block.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Stage.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\Sound.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Goal.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\ResultScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\CapsuleCollider.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\StageSelectScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
